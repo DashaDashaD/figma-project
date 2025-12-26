@@ -1,16 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+:root {
+--branding-color: #6c63ff; 
+--heading-font-family: "Playfair Display", serif;
+--default-font-family:"Poppins", sans-serif;
+--secondary-color:#F9F7FE;
+}
+
+body {
+font-family: var(--heading-font-family);
+
+}
+
 h1 {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+  color: black;
+  font-family: var(--heading-font-family) ;
+  font-weight: bold;
+  font-size: 50px;
+} 
+  
+ .hero {
+background-color: var(--secondary-color);
+text-align: center;
+padding: 160px 20px;
+ }
+
+ .hero p {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+ }
+
+.hero h2 {
+font-family: var(--default-font-family);
+font-weight: normal;
+font-size: 16px;
+line-height: 2;
 }
-p {
- font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.d-flex {
-  background-color: aquamarine;
+
+.btn-branding {
+  background-color:var(--branding-color) ;
+  border-radius: 4px;
+  color: #F9F7FE;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 15px 30px;
 }
