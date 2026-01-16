@@ -109,35 +109,3 @@ p {
 }
 
 /* About.html css */
-.personal-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 40px auto;
-  padding: 20px;
-  text-align: center;
-}
-
-.personal-info p {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #212529;
-}
-
-
-.ocupation {
-  color: rgb(76, 76, 76);
-  text-align: center;
-}
-
-.contact-link {
-  color: var(--branding-color);
-  font-family: var(--default-font-family);
-}
-
-.contact-link:hover {
-  color: #272142;
-}
-.text-center {
-  margin-bottom: 0 ;
-}
